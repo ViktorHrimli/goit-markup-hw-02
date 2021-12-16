@@ -1,3 +1,161 @@
-:root {
-  --primary--text--
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+/* Навигация */
+
+.logo {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.logo-studio {
+  color: #212121;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.nav-item {
+  color: #212121;
+}
+
+.nav-adress-ithem {
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Шапка */
+.hero-all {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button-ithem:hover,
+.button-ithem:focus {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+}
+.button-ithem {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+
+/* Особенности */
+
+.heading {
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+
+.text-list {
+  color: #757575;
+}
+
+.head-list {
+  color: #212121;
+  font-weight: bold;
+  line-height: 16px;
+}
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Подвал */
+
+.ithem-adress {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* За дивы сильно не ругайте
+то временно чтобы фон залить и текст
+был как в макете) */
+.footer-backgraund {
+  background-color: #2f303a;
+}
+
+.backgraund-hero {
+  background-color: #2f303a;
+}
+
+/* Портфолио
+Футер и Хедер одинаковые */
+
+/* Проекты */
+
+.ithem-progects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+.text-progects {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
