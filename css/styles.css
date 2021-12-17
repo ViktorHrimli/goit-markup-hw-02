@@ -75,6 +75,10 @@ address {
   letter-spacing: 0.02em;
 }
 
+.current {
+  color: var(--title-text-color);
+}
+
 /* Шапка */
 .hero-all {
   font-family: Roboto;
