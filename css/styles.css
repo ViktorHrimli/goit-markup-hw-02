@@ -22,7 +22,7 @@ address {
 
 .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--prymary-text-color);
 }
 
 .link:hover,
