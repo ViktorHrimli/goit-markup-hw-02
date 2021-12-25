@@ -147,6 +147,8 @@ header {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-right: 25px;
+  /* border: 2px solid navy; */
 }
 
 .page-nav {
@@ -387,6 +389,7 @@ header {
 .section-fotter {
   background-color: var(--background-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .list-adress {
   margin-top: 9px;
@@ -412,6 +415,20 @@ header {
 
 /* Проекты */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .ithem-progects {
   font-weight: bold;
   font-size: 18px;
@@ -420,6 +437,7 @@ header {
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .text-progects {
@@ -427,6 +445,7 @@ header {
   line-height: 1.87;
   color: #757575;
   letter-spacing: var(--letter-spacing);
+  margin-left: 24px;
 }
 
 .list-progects {
@@ -435,6 +454,8 @@ header {
   box-sizing: border-box;
   margin-left: 30px;
   margin-bottom: 30px;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 .list-progects:nth-child(3n + 1) {
